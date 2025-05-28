@@ -5,22 +5,6 @@ body {
   background-color: rgb(81 65 143 / 12%);
 }
 
-.center-position {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.border {
-  border: 10px solid rgb(18, 26, 55);
-  filter: drop-shadow(1px 1px 30px rgba(0, 0, 0, 1.6));
-}
-
-.border-radius {
-  border-radius: 50%;
-}
-
 .init-wheel-text {
   text-align: center;
   align-items: center;
@@ -85,28 +69,10 @@ body {
   filter: drop-shadow(0 4px 4px rgba(8, 8, 8, 0.6));
 }
 
-.wheel-1 {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: rgb(14, 16, 29);
-  width: 90px;
-  height: 90px;
-}
-
 .section-right {
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-
-.value-input-text {
-  left: 100px;
-  position: absolute;
-  font-size: 24px;
-  color: aliceblue;
-  display: flex;
-  align-items: center;
 }
 
 #input-text {
