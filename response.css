@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px) {
+  .init-wheel-text {
+    font-size: 28px;
+  }
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+  .slices-container {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .spin-pick {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .random-winner {
+    margin: 0px auto;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+
+  .init-wheel-text {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(207, 208, 208, 0.566);
+    border: 1px solid rgba(29, 48, 1, 0.783);
+    border-radius: 80px;
+    box-shadow: #c4c4c4 0 0px 50px;
+  }
+
+  .slices-container {
+    width: 350px;
+    height: 350px;
+  }
+
+  .section-right {
+    gap: 10px;
+  }
+
+  #input-text {
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+  .button-spin {
+    font-size: 16px;
+  }
+}

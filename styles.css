@@ -1,0 +1,143 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(81 65 143 / 12%);
+}
+
+.center-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border {
+  border: 10px solid rgb(18, 26, 55);
+  filter: drop-shadow(1px 1px 30px rgba(0, 0, 0, 1.6));
+}
+
+.border-radius {
+  border-radius: 50%;
+}
+
+.init-wheel-text {
+  text-align: center;
+  align-items: center;
+  font-size: 36px;
+  padding: 100px 30px;
+  background-color: rgba(207, 208, 208, 0.566);
+  border: 1px solid rgba(29, 48, 1, 0.783);
+  border-radius: 80px;
+  box-shadow: #998686 0 0px 50px;
+}
+
+.section-left {
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.random-winner {
+  text-align: center;
+  font-size: 30px;
+  width: 90%;
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 16px 32px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(113, 176, 236, 0.508) 0%,
+    rgba(166, 166, 174, 0.202) 50%,
+    rgba(78, 101, 203, 0.586) 100%
+  );
+
+  border-radius: 12px;
+  box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.6),
+    0 4px 12px rgba(0, 0, 0, 0.15);
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.spin-pick {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.slices-container {
+  overflow: visible;
+}
+
+.wheel {
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  filter: drop-shadow(0 0 45px rgba(55, 52, 52, 0.5));
+}
+
+.pointer {
+  filter: drop-shadow(0 4px 4px rgba(8, 8, 8, 0.6));
+}
+
+.wheel-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(14, 16, 29);
+  width: 90px;
+  height: 90px;
+}
+
+.section-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.value-input-text {
+  left: 100px;
+  position: absolute;
+  font-size: 24px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+#input-text {
+  width: 250px;
+  height: 400px;
+  font-size: 16px;
+  padding: 10px 10px;
+  line-height: 1;
+  border: 1px solid #575757;
+  border-radius: 20px;
+  box-shadow: #cfcfcf 0 0px 50px;
+}
+
+.button-spin {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+  border-top: 2px solid #dfffd366;
+  border-left: 2px solid #dfffd366;
+  color: #ffff;
+  background-color: rgb(33 41 56);
+  filter: drop-shadow(0 8px 8px rgba(85, 84, 84, 0.953));
+
+  transition: all 0.4s;
+}
+
+.button-spin:hover {
+  background-color: rgb(24, 26, 38);
+}
+
+.text {
+  font-size: 14px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+  fill: rgb(43, 43, 43);
+}
